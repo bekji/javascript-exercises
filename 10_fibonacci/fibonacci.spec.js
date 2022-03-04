@@ -4,6 +4,9 @@ describe('fibonacci', () => {
   test('4th fibonacci number is 3', () => {
     expect(fibonacci(4)).toBe(3);
   });
+  test('0th fibonacci number is 0', () => {
+    expect(fibonacci(0)).toBe(0);
+  });
   test('6th fibonacci number is 8', () => {
     expect(fibonacci(6)).toBe(8);
   });

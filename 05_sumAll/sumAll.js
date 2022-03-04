@@ -9,7 +9,7 @@ const sumAll = function(num1, num2) {
             }
             return res;
         } else {
-            for(let i = num2; i <= num1; i--){
+            for(let i = num1; i >= num2; i--){
                 res += i;
             }
             return res;
